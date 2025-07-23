@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    
+}
+nav{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+    background-color:aliceblue    
+}
+header{
+    width: 100%;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+    
+    
+}
+.hero-section{
+    background-image: url(./images/iphone16pro.jpg );
+    background-size: cover;
+    width: 100%;
+    height: 692px;
+    background-position:center ;
+    display: flex;
+    justify-content: center;
+}
+.hero-section{
+    padding-top: 55px;
+    color: aliceblue;
+}
+.hero-container h1{
+font-weight: 600;
+font-size: 52px;
+}
+.hero-container p{
+    font-size: 24px;
+    margin-top: 16px;
+    text-align: center;
+}
+.primary-button{
+    border: 0;
+    background-color: #0071E3;
+    padding: 12px 20px;
+    border-radius: 40px;
+    color: aliceblue;
+    font-weight: 300;
+
+}
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 16px;
+}
+.secandary-button{
+     border: #0071E3 solid 1px;
+    background-color: transparent;
+    padding: 12px 20px;
+    border-radius: 40px;
+    color:#0071E3;
+    font-weight: 300;
+
+}
+.section2{
+    background-image : url(./images/iphone16blue.png);
+     background-size: cover;
+    width: 100%;
+    height: 692px;
+    background-position:center ;
+    display: flex;
+    justify-content: center;
+}
+.section2{
+     padding-top: 55px;
+    color: aliceblue;
+}
+.container2 h1{
+    font-weight: 600;
+font-size: 52px;
+
+
+}
+.container2 p{
+     font-size: 24px;
+    margin-top: 16px;
+    text-align: center;
+    display: flex;
+height: 32px;
+flex-direction: column;
+justify-content: center;
+align-self: stretch;
+}
+.pbutton2{
+     border: 0;
+    background-color: #FFFFFF;
+    padding: 12px 20px;
+    border-radius: 40px;
+    color: #000000;
+    font-weight: 300;
+
+}
+
+.buttons-container2 {
+        gap: 16px;
+    display: flex;
+    margin-top: 20px;
+}
+.sbutton{
+     border:#FFFFFF solid 1px;
+    background-color: transparent;
+    padding: 12px 20px;
+    border-radius: 40px;
+    color:#FFFFFF;
+    font-weight: 300;
+
+}
+.section3{
+    background-image: url(./images/\ logo.jpg);
+     background-size: cover;
+    width: 100%;
+    height: 692px;
+    background-position:center ;
+    display: flex;
+    justify-content: center;
+}
+
+
+.text3 {
+    width: 405px; 
+    height: 60px;
+    margin-top: 500px;
+    color: #000000;
+    text-align: center;
+    font-family: Inter;
+
+font-size: 52px;
+font-style: normal;
+
+
+}
+.container3{
+    color: #000;
+
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+
+}
+.pbutton3{
+     border: 0;
+    background-color: #0071E3;
+    padding: 12px 20px;
+    border-radius: 40px;
+    color: aliceblue;
+    font-weight: 300;
+    
+}
+.section4{
+    background-image: url(./images/ipad\ air.jpg);
+    background-size: cover;
+    width: 942px;
+    height: 580px;
+    background-position:center ;
+    display: flex;
+    justify-content: center;
+}
+.Heading{
+    background-image: url(./images/ipad\ air\ Heading\ 3.png);
+    width: 430px;
+height: 33px;
+flex-shrink: 0;
+margin-top: 58px;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+}
+.description4{
+    color: #1D1D1F;
+    text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 138.889% */
+margin-top: 9px;
+}
+.pbutton4{
+     border: 0;
+    background-color: #0071E3;
+    padding: 10px 16px;
+    border-radius: 999px;
+    color: aliceblue;
+    font-weight: 300;
+    gap: 10PX;
+}
+.sbutton4{
+      border: #0071E3 solid 1px;
+    background-color: transparent;
+    padding: 12px 20px;
+    border-radius: 40px;
+    color:#0071E3;
+    font-weight: 300;
+    gap: 16px;
+    
+}
+.buttons-container4{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px;
+}
+.text4{
+    display: flex;
+width: 169px;
+height: 18px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 128.571% */
+background: linear-gradient(90deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 320px;
+margin-left: 123px;
+}
+.section5{
+    background-image: url(./images/Air\ pods\ pro2.jpg);
+     background-size: cover;
+    width: 942px;
+    height: 580px;
+    background-position:center ;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: 50px;
+
+}
+.section6{
+    background-image: url(./images/iwatch.jpg);
+    width: 942px;
+    height: 580px;
+    flex-shrink: 0;
+    
+
+    
+
+    
+   
+
+
+}
+.text6{
+    display: flex;
+width: 238px;
+height: 44px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #F5F5F7;
+
+text-align: center;
+font-family: Inter;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px; /* 122.222% */
+
+
+}
+.description6{
+
+width: 370px;
+color: #F5F5F7;
+
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 138.889% */
+}
+.pbutton5{
+    order: 0;
+    background-color: #0071E3;
+    padding: 10px 16px;
+    border-radius: 999px;
+    color: aliceblue;
+    font-weight: 300;
+    gap: 10PX;
+}
+.sbutton5{
+     border:#FFFFFF solid 1px;
+    background-color: transparent;
+    padding: 12px 20px;
+    border-radius: 40px;
+    color:#FFFFFF;
+    font-weight: 300;
+    gap: 16px;
+    
+}
+.section7{
+    background-image: url(./images/Macbook\ Air.jpg);
+    width: 1262px;
+height: 580px;
+flex-shrink: 0;
+}
+
+
+.flex {
+    display: flex;
+    gap: 16px;
+}
